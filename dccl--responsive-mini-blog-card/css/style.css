@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAF9;
+  font-family: "Sora", sans-serif;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 1rem;
+  margin: 164px auto;
+  background-color: #FFFFFF;
+  box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+  width: min(368px, 90%);
+  padding-inline: 16px;
+  padding-block-start: 16px;
+  padding-block-end: 20px;
+}
+.container picture {
+  overflow: hidden;
+  width: min(336px, 90%);
+  height: min(152px, 90%);
+}
+.container picture img {
+  border-radius: 0.825rem;
+  width: 100%;
+}
+.container .badge {
+  background-color: #E6D6FC;
+  color: #883AE1;
+  padding: 6px 16px;
+  width: 2.15rem;
+  font-size: 0.625rem;
+  border-radius: 1rem;
+}
+.container h1 {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 0;
+}
+.container hr {
+  width: 140%;
+  transform: translateX(-20%);
+  align-self: center;
+  border: #E5EAF0 solid 0.25px;
+}
+.container p {
+  padding-right: 30px;
+  line-height: 1.5em;
+  margin-block-start: 6px;
+  margin-block-end: 20px;
+  font-size: 0.875rem;
+  color: #6C727F;
+}
+.container .author {
+  margin: 0;
+  margin-block-start: 20px;
+  color: #6C727F;
+  font-size: 0.75rem;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+$badge-color: #883AE1;
+$badge-bg-color: #E6D6FC;
+$body-bg-color: #FAFAF9;
+$heading-color: #20293A;
+$p-tag-color: #6C727F;
+$name-color: #E5EAF0;
+$card-color: #FFFFFF;
+$font-style: "Sora", sans-serif;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $body-bg-color;
+    font-family: $font-style;
+
+
+}
+
+.container {
+    overflow: hidden;
+    border-radius: 1rem;
+    margin: 164px auto;
+    background-color: $card-color;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    width: min(368px, 90%);
+    padding-inline: 16px;
+    padding-block-start: 16px;
+    padding-block-end: 20px;
+    picture {
+        overflow: hidden;
+        width: min(336px, 90%);
+        height: min(152px,90%);
+        img {
+            border-radius: .825rem;
+            width: 100%;
+        }
+    }
+    .badge {
+        background-color: $badge-bg-color;
+        color: $badge-color;
+        padding: 6px 16px;
+        width: 2.15rem;
+        font-size: .625rem ;
+        border-radius: 1rem;
+    }
+    h1 {
+        font-weight: 600;
+        font-size: 18px ;
+        margin: 0;  
+    }
+    hr {
+        width: 140%;
+        transform: translateX(-20%);
+        align-self: center;
+        border: $name-color solid .25px;
+    }
+    p {
+        padding-right: 30px;
+        line-height: 1.5em;
+        margin-block-start: 6px;
+        margin-block-end: 20px;
+        font-size: .875rem;
+        color: $p-tag-color;
+    }
+    .author {
+        margin: 0;
+        margin-block-start: 20px;
+        color: $p-tag-color;
+        font-size: .75rem;
+    }
+}
